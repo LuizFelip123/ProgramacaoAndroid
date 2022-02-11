@@ -33,12 +33,12 @@
         android:inputType="text"/>
 
     <Button
+        android:id="@+id/btn_atualizar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_atualizar"
+        android:layout_marginLeft="110dp"
         android:layout_marginTop="60dp"
-        android:layout_marginLeft="100dp"
+        android:backgroundTint="@color/blue"
         android:text="@string/editar_contato"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/blue"/>
+        android:textColor="@color/white" />
 </LinearLayout>
