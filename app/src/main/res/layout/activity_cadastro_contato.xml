@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CadastroContatoActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_cadastro"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:title="@string/titulo_cadastro"
+        app:titleTextColor="@color/white"
+        android:elevation="4dp"
+        android:theme="@style/Theme.TrabalhoFinal"
+        app:popupTheme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_contato"
+        android:id="@+id/campo_nome"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numero_contato"
+        android:id="@+id/campo_telefone"
+        android:inputType="phone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/endereco_contato"
+        android:id="@+id/campo_endereco"
+        android:inputType="text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_adicionar"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="100dp"
+        android:text="@string/adicionar_contato"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"/>
+</LinearLayout>

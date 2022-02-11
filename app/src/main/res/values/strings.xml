@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Trabalho Final</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="nome_contato">Nome</string>
+    <string name="numero_contato">Telefone</string>
+    <string name="endereco_contato">Endereço</string>
+    <string name="adicionar_contato">Adicionar contato</string>
+    <string name="channel_name">noti</string>
+    <string name="channel_description">notificar</string>
+    <string name="editar">Editar</string>
+    <string name="editar_contato">Editar Contato</string>
+    <string name="titulo_principal">Lista Contatos</string>
+    <string name="titulo_contato">Perfil Contato</string>
+    <string name="titulo_editar_perfil">Editar Contato</string>
+    <string name="titulo_cadastro">Cadastro Contato</string>
+</resources>

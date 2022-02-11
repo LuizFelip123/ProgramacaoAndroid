@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_editar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:title="@string/titulo_editar_perfil"
+        app:titleTextColor="@color/white"
+        android:theme="@style/Theme.TrabalhoFinal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_contato"
+        android:id="@+id/nome_atualizar"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numero_contato"
+        android:id="@+id/numero_atualizar"
+        android:inputType="phone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/endereco_contato"
+        android:id="@+id/endereco_atualizar"
+        android:inputType="text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_atualizar"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="100dp"
+        android:text="@string/editar_contato"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"/>
+</LinearLayout>
